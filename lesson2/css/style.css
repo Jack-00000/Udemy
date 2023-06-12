@@ -31,6 +31,10 @@ header h1 {
 .description img {
   float: left;
   margin: 0 10px 10px 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0;
 }
 
 .type {
@@ -46,7 +50,7 @@ header h1 {
 }
 
 .information h1 {
-  font-size:18px;
+  font-size: 18px;
   margin: 0 10px 0 0;
 }
 
