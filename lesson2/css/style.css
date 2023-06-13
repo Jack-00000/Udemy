@@ -93,3 +93,31 @@ footer {
   font-size: .8em;
   padding: 5px;
 }
+
+.description img:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 600px) {
+  .description img {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  header {
+    padding: 5px;
+  }
+
+  header h1{
+    font-size: 12px;
+  }
+
+  .information h1 {
+    font-size: 14px;
+  }
+
+  .songs ol {
+    display: block;
+  }
+}
